@@ -1,0 +1,5 @@
+CREATE TABLE owners (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    birth_date DATE NOT NULL
+);
